@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/portofino/static/css/main.fa928552.css",
+    "main.js": "/portofino/static/js/main.fbc0357e.js",
+    "static/css/64.5e82045a.chunk.css": "/portofino/static/css/64.5e82045a.chunk.css",
+    "static/js/64.77b2a1e7.chunk.js": "/portofino/static/js/64.77b2a1e7.chunk.js",
+    "static/css/769.3dec8b16.chunk.css": "/portofino/static/css/769.3dec8b16.chunk.css",
+    "static/js/769.efdaab74.chunk.js": "/portofino/static/js/769.efdaab74.chunk.js",
+    "static/media/rateMyProfessorLogo.png": "/portofino/static/media/rateMyProfessorLogo.94f9cbada5ac68b6d3cf.png",
+    "static/media/Montserrat-Regular.ttf": "/portofino/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/splittyLogo.png": "/portofino/static/media/splittyLogo.312a7ab46d239d5aeba3.png",
+    "static/media/flashcardLogo.png": "/portofino/static/media/flashcardLogo.2ddfcac3c272a22e92b1.png",
+    "static/media/resume.pdf": "/portofino/static/media/resume.5cae4d35e60ae0c4bbf7.pdf",
+    "static/media/Agustina.woff": "/portofino/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/manOnTable.svg": "/portofino/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/contactMailDark.svg": "/portofino/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/portofino/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/stcs.png": "/portofino/static/media/stcs.4cf3bee5da67952dade3.png",
+    "static/media/skill.svg": "/portofino/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/portofino/index.html",
+    "static/media/talksCardBack.svg": "/portofino/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.fa928552.css.map": "/portofino/static/css/main.fa928552.css.map",
+    "main.fbc0357e.js.map": "/portofino/static/js/main.fbc0357e.js.map",
+    "64.5e82045a.chunk.css.map": "/portofino/static/css/64.5e82045a.chunk.css.map",
+    "64.77b2a1e7.chunk.js.map": "/portofino/static/js/64.77b2a1e7.chunk.js.map",
+    "769.3dec8b16.chunk.css.map": "/portofino/static/css/769.3dec8b16.chunk.css.map",
+    "769.efdaab74.chunk.js.map": "/portofino/static/js/769.efdaab74.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa928552.css",
+    "static/js/main.fbc0357e.js"
+  ]
+}
