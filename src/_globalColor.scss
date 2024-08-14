@@ -3,40 +3,72 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
-$topButtonHover: #000;
+$buttonColor: #8c2f39;
+/* Cordovan */
+$buttonHover: #b23a48;
+/* Redwood */
+$topButtonHover: #d77a7d;
+/* Light Coral */
 
 // text colors light theme
-$titleColor: #000000;
-$textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
-$blogCardTitleColor: #262626;
+$titleColor: #461220;
+/* Darker shade of Chocolate Cosmos */
+$textColor: #2e2e2e;
+/* Dark Grey for better readability */
+$subTitle: #666666;
+/* Slightly darker grey */
+$cardSubtitle: #4d4d4d;
+/* Darker grey for subtitles */
+$talkCardSubTitle: #4d4d4d;
+/* Same darker grey for consistency */
+$blogCardTitleColor: #2e2e2e;
+/* Dark grey for blog card titles */
 
 // text color dark theme
 $textColorDark: #ffffff;
+/* White for better readability in dark mode */
+$subTitleDark: #ffffff;
+/* White for subtitles in dark mode */
+$cardSubtitleDark: #ffffff;
+/* White for card subtitles in dark mode */
+$talkCardSubTitleDark: #ffffff;
+/* White for talk card subtitles in dark mode */
+$blogCardTitleColorDark: #ffffff;
+/* White for blog card titles in dark mode */
 
 // toggle switch colors
-$toggleCheck: #2196f3;
+$toggleCheck: #6e0729;
+/* Default: Pink */
 $toggleSwitchSliderBG: #ccc;
+/* Default: Grey */
 
 // githubRepo specific colors
-$githubRepoCardLanguageColorBG: #0000ff;
-$githubRepoCardColor: rgb(88, 96, 105);
-$githubRepoCardRepoCardStatsColor: rgb(106, 115, 125);
-$githubRepoCardRepoNameColor: rgb(36, 41, 46);
-$githubProfileCardLocationTS: #ffebcd;
-$githubProfileCardBorder: #6c63ff;
+$githubRepoCardLanguageColorBG: #ea9d99;
+/* Light Coral 2 */
+$githubRepoCardColor: rgba(88, 96, 105, 1);
+/* Default: Grey */
+$githubRepoCardRepoCardStatsColor: rgba(106, 115, 125, 1);
+/* Default: Grey */
+$githubRepoCardRepoNameColor: rgba(54, 42, 49, 1);
+/* Default: Dark Brown */
+$githubProfileCardLocationTS: #df7fbc;
+/* Default: Light Pink */
+$githubProfileCardBorder: #f89efb;
+/* Default: Light Pink */
 
 // light background colors
-$lightBackground1: #fff;
-$lightBackground2: rgb(255, 255, 255);
-$lightBackground3: #f5f2f4;
-$blogCardContainerColor: #586069;
+$lightBackground1: #fdc5b7;
+/* Melon */
+$lightBackground2: #ea9d99;
+/* Light Coral 2 */
+$lightBackground3: #d77a7d;
+/* Light Coral */
+$blogCardContainerColor: #695863;
+/* Default: Dark Purple */
+
 // dark background colors
-$darkBackground: #171c28;
+$darkBackground: #461220;
+/* Chocolate Cosmos */
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);
@@ -45,37 +77,44 @@ $lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
 
 // dark theme box shadows
 $darkBoxShadow: #d9dbdf;
+/* Default: Light Grey */
 $darkBoxShadow2: #ffffff;
+/* Default: White */
 
 // linear gradients
-$experienceCardBlurredDivLG: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.2)
-);
-$experienceCardBannerLG: linear-gradient(
-  rgba(0, 0, 0, 0.7),
-  rgba(0, 0, 0, 0.5)
-);
+$experienceCardBlurredDivLG: linear-gradient(rgba(0, 0, 0, 0.4),
+    rgba(0, 0, 0, 0.2));
+$experienceCardBannerLG: linear-gradient(rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.5));
 
 // borders
 $progressBarBackground: rgb(243, 239, 239);
 $lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$educationCardBorder: #ff90ca;
+/* Default: Light Pink */
 
 // hovers
-$achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);
+$achievementCertificateCardHoverDark: rgba(203, 76, 146, 0.2);
+/* Default: Light Pink */
 $blogCardHoverSmallColor: rgba(255, 255, 255, 0.8);
 $headerHoverBG: #f4f4f4;
+/* Default: Light Grey */
 $contactDetailHoverTS: #b5b5b5;
+/* Default: Grey */
 
 // misc backgrounds
-$progressBarSpanBG: #aaa5ff;
+$progressBarSpanBG: #c38095;
+/* Default: Pink */
 $iconBackground: #333;
-$appHeaderBG: #282c34;
+/* Default: Dark Grey */
+$appHeaderBG: #8c2f39;
+/* Cordovan */
 
 // misc colors
-$skillsColor: #645beb;
-$appLink: #09d3ac;
+$skillsColor: #c547aa;
+/* Default: Pink */
+$appLink: #b23a48;
+/* Redwood */
 
 // social media icons
 $faceBook: #3b5998;

@@ -20,28 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "kjo-codes",
+  title: "Hi all, I'm Kajol",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am all about exploring sandwich places and trying every new tech I find interesting."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1O0qltg67ylUTLHOywqaWuucM_-skl2fw/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/kjo-codes",
+  linkedin: "https://www.linkedin.com/in/kajol-k-222251242/",
+  gmail: "kajolkabiraj6@gmail.com",
+  instagram: "https://www.instagram.com/kajol.kabiraj/",
+  medium: "https://medium.com/@kajolkabiraj6",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,19 +45,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A passionate aspiring Software Developer 🚀 passionate about developing innovative tech solutions and making a positive impact. With hands-on experience in iOS Development, Automation and Databases , I thrive in challenging environments that push me to grow and excel",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop innovative projects that solves real world problems and build a user base"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Deeply curious to build projects using GenAI "),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase, Google Cloud etc"
     )
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
@@ -71,10 +64,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
     },
     {
       skillName: "JavaScript",
@@ -126,26 +115,40 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Thapar Institute of Engineering and Technology",
+      logo: require("./assets/images/thapar.png"),
+      subHeader: "Bachelor's in Computer Science and Engineering",
+      duration: "August 2021 - November 2025",
+      desc: "Secretary - Student Alumni Relations Cell",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Gained a solid foundation in computer engineering, focusing on both theoretical knowledge and practical application through various hands-on projects like Arduino based RoboCar, ELC RoboARM and Capstone Project- Semi Autonomous Fertlizer Sprinkling System.",
+        "Courses- Operating Systems, Advanced Data Structures and Algorithms, AI, Machine Learning, DataBase Management System, Compliler Design and many more."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "The Century School",
+      logo: require("./assets/images/century.png"),
+      subHeader: "12th CBSE",
+      duration: "Graduated 2021",
+      desc: "Ranked in the top 5 of the class. Scored 95.6%",
+      descBullets: [
+        "Excelled academically in a rigorous CBSE curriculum, consistently ranking in the top 5% of the class, which strengthened my foundational knowledge and study discipline.",
+        "Participated in various extracurricular activities that nurtured my leadership abilities and collaborative skills, contributing to a well-rounded educational experience."
+      ]
+    },
+    {
+      schoolName: "St. Theresa's Convent Sr. Sec. School",
+      logo: require("./assets/images/stcs.png"),
+      subHeader: "10th CBSE",
+      duration: "Graduated 2018",
+      desc: "Ranked top 10% in the entire school. Scored 92.7%",
+      descBullets: [
+        "Actively participated in the Student Council and was a key member of the Debate Team, where I honed my leadership and public speaking skills. These experiences not only enhanced my ability to articulate ideas clearly and persuasively but also instilled a strong sense of responsibility and teamwork."
+      ]
     }
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -153,11 +156,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Test and Use Automation", //Insert stack or technology you have experience in
+      progressPercentage: "65%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "React.js",
       progressPercentage: "70%"
     },
     {
@@ -171,70 +174,93 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Intern",
+      company: "S&P Global",
+      companylogo: require("./assets/images/sp.png"),
+      date: "June 2024 – August 2024",
+      desc: "Contributed to key projects working with the Foreseer team, Data Transformation",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed a Python automation system reducing data migration errors by 70%.",
+        "Collaborated in the Intern Hackathon, enhancing ATS scanning with GenAI, improving processing speed by 25%.",
+        "Enhanced Foreseer UI using Java Vaadin Framework, increasing user interaction efficiency by 20%."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Open Source Contributor (Spring 2024 Cohort)",
+      company: "Humanitarian OpenStreetMap Team",
+      companylogo: require("./assets/images/outreachy.png"),
+      date: "March 2024",
+      desc: "Worked on improving the efficiency of fieldwork data collection through innovative solutions.",
+      descBullets: [
+        "Enhanced the Basemapper module, boosting data collection efficiency by 25%.",
+        "Developed a Python Kivy-based mobile interface, simplifying the process of fieldwork data collection."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intern",
+      company: "DeepStrat",
+      companylogo: require("./assets/images/ds.png"),
+      date: "January 2024",
+      desc: "Collaborated on the development of a criminal data analysis system for Haryana Police.",
+      descBullets: [
+        "Contributed to a Flask-based system that improved crime predictive accuracy by 60%.",
+        "Modeled complex criminal relationships using SQLAlchemy, enhancing criminal profiling capabilities."
+      ]
+    },
+    {
+      role: "Project Management and Outreach Intern",
+      company: "Ambitio",
+      companylogo: require("./assets/images/ambitio.png"),
+      date: "Aug 2023 – Oct 2023",
+      desc: "Managed and executed campaigns, enhancing company reach and product offerings.",
+      descBullets: [
+        "Helped develop two major software applications, increasing company reach by 30%.",
+        "Collaborated cross-functionally with operations teams to execute 10 successful campaigns."
+      ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "INNOVATIVE TECH SOLUTIONS THAT I DEVELOPED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/flashcardLogo.png"),
+      projectName: "Flashcard with Paywall (SaaS)",
+      projectDesc: "Developed a SaaS application for flashcard creation with premium content paywall, boosting user engagement and revenue through secure authentication and payment gateway integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://kjo-codes.github.io/portofino/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/splittyLogo.png"),
+      projectName: "Splitty",
+      projectDesc: "Created a C++ application designed to calculate and simplify debt settlements among multiple parties using efficient algorithms, reducing debt complexity by 50%.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/kjo-codes/splitty"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rateMyProfessorLogo.png"),
+      projectName: "TURateMyProfessor - iOS",
+      projectDesc: "Developed an iOS app allowing students to rate and review professors, enhancing their course selection experience with a user-friendly interface.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/kjo-codes/turate-myprofessor"
         }
       ]
     }
@@ -242,61 +268,58 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
-
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Cloud Digital Leader",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Silver Badge, Completed 8+ Certifications.",
+      image: require("./assets/images/gcp.png"),
+      imageAlt: "Google digital boost Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Profile and Certifications",
+          url: "https://www.cloudskillsboost.google/public_profiles/36a9892c-9833-4061-8629-b078b16b1a8e"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Google Cloud Facilitator 2024",
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "S&P Global EssentialTECH",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed a number of Certifications on the S&P Global EssentiaLTECH learning platform",
+      image: require("./assets/images/sp.png"),
+      imageAlt: "et logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Transcript",
+          url: "https://drive.google.com/file/d/1pqL5fl3dkdsx80x8S1SMAJDbGpeEZ1u5/view?usp=share_link"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Product Roadmapping Micro-Certification (PRC)™️",
+      subtitle: "Completed Certifcation from The Product School",
+      image: require("./assets/images/ps.png"),
+      imageAlt: " Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        { name: "Certification", url: "https://drive.google.com/file/d/1UAUa9yhnkneCjTPXiBPyin9CB-kcMa7t/view?usp=share_link" }
+      ]
+    },
+    {
+      title: "Certifed NIFAA Volunteer",
+      subtitle: "Volunteer for National Integrated Forum of Artists and Activists, 8+ events recognized by the World Book of Records",
+      image: require("./assets/images/nifaa.png"),
+      imageAlt: " Logo",
+      footerLink: [
+        { name: "Certification", url: "https://drive.google.com/drive/folders/1mIiN4SZbA0z_Oz964uDnJT2BdkMnWtvg?usp=share_link" }
       ]
     }
   ],
@@ -308,23 +331,27 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "I love to write",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://medium.com/@kajolkabiraj6/kubernetes-the-cloud-native-powerhouse-and-why-its-a-scarce-skill-607c81375bfb",
+      title: "Kubernetes: The Cloud-Native Powerhouse and Why It’s a Scarce Skill"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://medium.com/@kajolkabiraj6/the-day-the-blue-screen-returned-how-crowdstrike-glitched-the-matrix-d52d9b5714d7",
+      title: "The Day the Blue Screen Returned: How CrowdStrike Glitched the Matrix"
+    },
+    {
+      url: "https://medium.com/@kajolkabiraj6/my-outreachy-adventure-mapping-the-future-with-hots-osm-fieldwork-project-d770fa7fa233",
+      title: "My Outreachy Adventure"
     }
   ],
   display: true // Set false to hide this section, defaults to true
+};
+const openSource = {
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -334,7 +361,6 @@ const talkSection = {
   subtitle: emoji(
     "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
   ),
-
   talks: [
     {
       title: "Build Actions For Google Assistant",
@@ -343,7 +369,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -351,36 +377,32 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open.",
+  number: "+91-7988469106",
+  email_address: "kajolkabiraj6@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
